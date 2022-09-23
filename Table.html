@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<style>
+    h3{
+        margin-left: 120px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    table,tr,th,td{
+        border-collapse:collapse;
+        border: solid black;
+        color: black;
+        margin-left: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+</style>
+<body>
+    <div>
+        <h3>School Time-table</h3>
+        <table border="3" style="background-color:powderblue; text-align: center;">
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="4">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th colspan="2" rowspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Monday</th>
+                <td rowspan="2">8 am</td>
+                <td rowspan="2">5 pm</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>validity:DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Tuesday</th>
+                <td>8 am</td>
+                <td>11 am</td>
+                <td>XPath</td>
+            </tr>
+            <tr>
+                <td>11 am</td>
+                <td>2 am</td>
+                <td rowspan="2">XSL Transformation</td>
+            </tr>
+            <tr>
+                <td>2 am</td>
+                <td>5 am</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>8 am</td>
+                <td>12 pm</td>
+                <td>XSL Formatting Objects</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
